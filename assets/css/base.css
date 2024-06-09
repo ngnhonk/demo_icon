@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 400ms;
+    font-family: "Varela Round", sans-serif;
+}
+
+:root {
+    /* Color */
+    --color-orange: #F36944;
+    --color-orange-hover: #b43c1a;
+    --color-red: #FF8787;
+    --color-red-hover: #E03131;
+    --color-purple: #B197FC;
+    --color-purple-hover: #6741D9;
+    --color-yellow: #FFD43B;
+    --color-yellow-hover: #FAB005;
+    --color-blue: #74C0FC;
+    --color-blue-hover: #146EBE;
+    --color-green: #63E6BE;
+    --color-green-hover: #0CA678;
+    --color-pink: #E599F7;
+    --color-pink-hover: #9C36B5;
+    --color-white: #FFFFFF;
+    --color-white-hover: #C3C6D1;
+
+    /* Background Color */
+    --color-br-1: #F0F1F3;
+    --color-br-2: #183153;
+
+    /* Text Color */
+    --color-text-main: #183153;
+}
+
