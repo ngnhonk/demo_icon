@@ -172,7 +172,7 @@ input[name=search]{
 }
 
 input[name=search]:focus{
-    outline: nonaa;
+    outline: none;
 }
 
 .search .rcm{
