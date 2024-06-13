@@ -31,7 +31,7 @@
     --color-text-main: #183153;
 }
 
-.col-xl-20 .col-lg-20 .col-md-20 .col-sm-20 .col-20 {
+.col-xl-20 .col-lg-20 .col-md-20 .col-sm-20 .col-20{
     position: relative;
     width: 100%;
     padding-left: 15px;
@@ -46,10 +46,3 @@
     }
 }
 
-@media (min-width:992px) {
-    .col-lg-20 {
-        -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-        max-width: 20%;
-    }
-}
