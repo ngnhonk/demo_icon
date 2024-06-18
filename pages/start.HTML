@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start</title>
+    <!-- Link CSS and Bootstrap -->
+    <link rel="stylesheet" href="/assets/bootstrap/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="/assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap/jquery.slim.min.js">
+
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/start.css">
+
+    <!-- Other Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container-md">
+            <div class="inner-content">
+                <div class="menu"><i class="fa-solid fa-bars"></i></div>
+                <a href="/index.html" class="first-child"><i class="fa-solid fa-flag"></i></a>
+                <a href="/pages/start.HTML">Start</a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="/pages/icon.html">Icons</a>
+                <a href="#">Docs</a>
+                <a href="#">Plans</a>
+                <a href="/pages/support.HTML">Support</a>
+                <a href="#">Podcast</a>
+                <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start selection one-->
+    <div class="section-one">
+        <div class="container-md">
+            <div class="inner-content">
+                <div class="title">
+                    <i class="fa-brands fa-web-awesome"></i>
+                    <p><strong>Say hello to Web Awesome</strong>, the biggest and best library of open-source web
+                        components.</p>
+                </div>
+                <div class="btn">
+                    <a href="#"><i class="fa-solid fa-clock"></i>Pre-order today!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End selection one-->
+
+    <!-- Start container1-->
+    <div class="container1">
+        <div class="cont">
+            <h1>Get Started with Font Awesome</h1>
+            <p>The easiest way to get icons on your website is with a Kit. It's your very own custom version of Font
+                Awesome,
+                all bundled up with only the icons, tools, and settings you need.</p>
+        </div>
+        <img src="/assets/images/start-illustration.svg">
+    </div>
+
+    <!--Start container2-->
+    <div class="container2">
+        <div class="part1">
+            <h5>
+                Enter your email to get started with a free Kit!
+                <span class="info-icon" onclick="togglePopup()">?</span>
+            </h5>
+            <input type="email" placeholder="e.g. violet@freshsqueezed.org">
+            <div>
+                <input type="checkbox" id="tos">
+                <label for="tos">I agree to the <a href="#"><b>Terms of Service</b></a> and <a href="#"><b>Privacy
+                            Policy</b></a>.</label>
+            </div>
+        </div>
+        <div class="part2">
+            <div class="powered-by"><a href="">Powered by Cloudflare <i class="fa-brands fa-cloudflare"></i></a></div>
+            <button>Send Kit Embed Code <i class="fa-solid fa-suitcase"></i></button>
+            <div class="sign"><a href="#">Already have an account? Sign In</a></div>
+        </div>
+        <div class="popup" id="popup">
+            <span class="close" onclick="togglePopup()">&times;</span>
+            <h2>Why do you need my email address?</h2>
+            <p>We create Kits for each website so you can quickly upgrade and change your settings all without ever
+                pushing code. To do this, we need to create a Font Awesome account so we know which Kits are yours and
+                so you can come back and manage them.</p>
+            <p>A Font Awesome account is free to have, but a valid email account is required to set up an account.</p>
+            <p>You can read more about <a href="#">how we use your email address</a> and what <a href="#">terms of
+                    service</a> come with having an account.</p>
+        </div>
+    </div>
+
+    <script>
+        function togglePopup() {
+            var popup = document.getElementById('popup');
+            popup.style.display = (popup.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+
+    <!--end test-->
+
+    <div class="steps-container">
+        <div class="step">
+            <p class="step-number">1</p>
+            <p class="step-title">Setup Font Awesome</p>
+            <p class="step-description">
+                After creating a Kit, copy your Kit’s unique code into the <span
+                    style="color: #FAB43D;">&lt;head&gt;</span> of your page.
+            </p>
+        </div>
+        <div class="step">
+            <p class="step-number">2</p>
+            <p class="step-title">Add Icons</p>
+            <p class="step-description">
+                Start placing icons in your HTML's <span style="color: #FAB43D;">&lt;body&gt;</span> using our <a
+                    href="#">simple syntax</a>.
+            </p>
+        </div>
+        <div class="step">
+            <p class="step-number">3</p>
+            <p class="step-title">Make it Awesome</p>
+            <p class="step-description">
+                It's time to rock and roll! <a href="#">Color</a>, <a href="#">size</a>, <a href="#">rotate</a>, <a
+                    href="#">animate</a>, & <a href="#">power transform</a> icons with ease!
+            </p>
+        </div>
+    </div>
+
+    <!-- Start -->
+    <div class="cover">
+        <div class="headercover">
+            <div class="hc">
+                <h2 class="font-weight-bold">Other Ways to Use</h2>
+                <br>
+                <p>No matter what tech you're using for your project, website, or app, we have the tools that work how
+                    and where you do.
+                </p>
+            </div>
+            <p class="item"><a href="#">Explore Icons <i class="fa-solid fa-magnifying-glass"></i></a></p>
+            <p class="item"><a href="#">Download <i class="fa-solid fa-download"></i></a></p>
+        </div>
+        <div class="bodycover">
+            <div class="bc1"><a href="">
+                    <i class="fa-solid fa-key"></i>
+                    <div class="item1">
+                        <h4>Getting Started</h4>
+                        <p>If you are new to Font Awesome, or just need a refresher.
+                            Here are some tips to get started.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="bc2"> <a href="">
+                    <i class="fa-solid fa-pager"></i>
+                    <div class="item1">
+                        <h4>On Websites</h4>
+                        <p>
+                            You can add icons to your web project with a little bit of code -
+                            it's super easy once you have a few of the basics under your belt
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="bc3"> <a href="">
+                    <i class="fa-solid fa-desktop"></i>
+                    <div class="item1">
+                        <h4>In Desktop Apps</h4>
+                        <p>
+                            Use icons in desktop design programs like Figma or illustrator,
+                            or craft nice looking docs or slides - we've got you covered
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="bc4"> <a href="">
+                    <i class="fa-solid fa-gear"></i>
+                    <div class="item1">
+                        <h4>With APIs</h4>
+                        <p>Between our Javascript API and our GraphQL API, we're ready to answer all your requests.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="bc5"> <a href="">
+                    <i class="fa-solid fa-palette"></i>
+                    <div class="item1">
+                        <h4>Styling Icons</h4>
+                        <p>Make your icons look the best with our styling tools.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="bc6"> <a href="">
+                    <i class="fa-solid fa-pen-clip"></i>
+                    <div class="item1">
+                        <h4>Uploading Icons</h4>
+                        <p>Now with the magic of Kits, you can upload your own icons and use them right alongside
+                            official Font Awesome ones!
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--Start-->
+    <div>
+
+    </div>
+
+
+</body>
+
+</html>
