@@ -76,6 +76,7 @@ header .inner-content a:first-child:hover {
 
 /* End Header */
 
+
 /* Start Section One */
 .section-one .inner-content {
     background-color: var(--color-orange);
@@ -158,10 +159,16 @@ header .inner-content a:first-child:hover {
 
 /* End Section One */
 
+.main{
+    width: 80%;
+    display: inline;
+    position: relative;
+
+}
 /*start search*/
 .search {
     padding: 10px ;
-    margin: 10%;
+    margin: 5% 20%;
     border: 3px solid;
     border-radius: 80px;
     position: relative;
@@ -181,3 +188,91 @@ input[name=search]:focus{
     left: 20px;
     font-size: small;
 }
+
+/* end search*/
+
+/*start quick search*/
+.quickse {
+    margin: 5% 15%;
+    position: relative;
+}
+
+.quickse ul{
+    display: flex;
+    list-style: none;
+}
+
+.quickse ul .op{
+    position: relative;
+    width: 20%;
+    text-align: center;
+    display: block;
+}
+
+.quickse ul .op h4{
+    color: black;
+    font-weight: bold;
+}
+
+.quickse ul .op p{
+    color: gray;
+    font-size: small;
+}
+
+.quickse ul li a h4:hover{
+    color: var(--color-blue);
+}
+/*end quickse*/
+
+/*start iconrcm*/
+
+.iconrcm{
+    margin: 0% 10%;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+
+.iconrcm .itemrcm.t1 {
+    background-color: var(--color-yellow);
+    position: relative;
+    width: 30%;
+    border-radius:15px ;
+    padding-bottom: 10px;
+}
+
+.iconrcm .itemrcm.t2 {
+    background-color: var(--color-blue);
+    position: relative;
+    width: 30%;
+    border-radius:15px ;
+    padding-bottom: 10px;
+}
+
+.iconrcm .itemrcm.t3 {
+    background-color: var(--color-green);
+    position: relative;
+    width: 30%;
+    border-radius:15px ;
+    padding-bottom: 10px;
+}
+
+.iconrcm .itemrcm{
+    margin: 3%;
+}
+.iconrcm .itemrcm img{
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.iconrcm .itemrcm a{
+    color: black;
+}
+
+.iconrcm .itemrcm a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* end iconrcm*/
