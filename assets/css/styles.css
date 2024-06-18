@@ -939,7 +939,10 @@ header .inner-content a:first-child:hover {
     transition: 0;
 }
 
-/* .section-seven .r-second  */
+.section-seven .r-second .item{
+    border: 2px solid gray;
+    border-radius: 13px;
+}  
 @media (max-width: 1199.98px) {
     .section-seven .r-first .item {
         height: 160px;
@@ -977,6 +980,5 @@ header .inner-content a:first-child:hover {
         margin-bottom: 15px;
     }
 }
-
 
 /* End Section Seven */
