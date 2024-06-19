@@ -31,7 +31,7 @@ header .menu:hover {
     color: var(--color-orange);
 }
 
-header .inner-content a:last-child {
+header .inner-content .last-child {
     position: absolute;
     right: 0;
 }

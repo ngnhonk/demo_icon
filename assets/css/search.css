@@ -31,7 +31,7 @@ header .menu:hover {
     color: var(--color-orange);
 }
 
-header .inner-content a:last-child {
+header .inner-content .last-child {
     position: absolute;
     right: 0;
 }
@@ -221,8 +221,55 @@ header .dropdown-menu a:hover {
         font-size: 14px;
     }
 }
-
 /* End Section One */
+
+
+/* Start Section Two */
+.section-two .inner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.section-two .inner-content img{
+    object-fit: contain;
+    width: 400px;
+}
+
+.section-two .inner-content h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--color-text-main);
+}
+
+.section-two .inner-content .title{
+    padding: 60px 0;
+    padding-bottom: 40px;
+}
+.section-two .inner-content .btn{
+    padding: 20px 60px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--color-blue);
+    font-weight: bold;
+    font-size: 18px;
+    transform: rotate(-12deg);
+}
+.section-two .inner-content .btn:hover{
+    background-color: var(--color-purple);
+    transform: 500ms;
+    color: white;
+}
+.section-two .inner-content .btn a{
+    text-decoration: none;
+    color: inherit;
+}
+/* End Section Two */
+
 
 /* Footer */
 footer{
