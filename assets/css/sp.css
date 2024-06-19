@@ -447,7 +447,74 @@ header .inner-content a:first-child:hover {
     border-radius: 5px;
 }
 
+/* Footer */
+footer{
+    background-color: var(--color-text-main);
+    color: white;
+}
 
+footer .inner-content {
+    padding: 40px 0;
+}
+
+footer .inner-content h5{
+    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+footer .inner-content p{
+    margin-bottom: 14px;
+    font-size: 12px;
+}
+footer .inner-content ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .inner-content ul li{
+    padding: 3px 0;
+}
+footer .inner-content li a{
+    text-decoration: none;
+    color: white;
+}
+footer .inner-content li a:hover{
+    text-decoration: none;
+    color: var(--color-blue);
+}
+
+footer .inner-content .main .first {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .inner-content .main .first li{
+    font-size: 12px;
+}
+footer .inner-content .sub span{
+    color: gray;
+}
+
+footer .inner-content{
+    position: relative;
+}
+
+footer .tag{
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 900;
+}
+@media (max-width: 1199.98px){
+    footer .inner-content .sub{
+        margin-top: 20px;
+    }
+}
+/* End Footer */
 
 
 

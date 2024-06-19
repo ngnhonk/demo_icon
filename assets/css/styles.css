@@ -585,6 +585,7 @@ header .inner-content a:first-child:hover {
 
 .section-four .inner-top .left form input:focus {
     box-shadow: 0 0 15px 1px #00000080;
+    transition: 600ms;
 }
 
 .section-four .inner-top .left form span {
@@ -1132,6 +1133,7 @@ header .inner-content a:first-child:hover {
     background-color: var(--color-yellow);
     margin-top: 15px;
     transition: 400ms;
+    font-weight: bold;
 }
 .section-eight .btn:hover{
     background-color: var(--color-yellow-hover);
@@ -1231,6 +1233,7 @@ header .inner-content a:first-child:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    order: 1;
 }
 
 .section-ten .top-left h4 {
@@ -1251,6 +1254,9 @@ header .inner-content a:first-child:hover {
 .section-ten .top-left a i{
     font-size: 22px;
     margin-right: 20px;
+}
+.section-ten .top-right{
+    order: 0;
 }
 .section-ten .top-right img{
     object-fit: contain;
@@ -1381,6 +1387,7 @@ footer .inner-content li a:hover{
 footer .inner-content .main .first {
     display: flex;
     justify-content: space-between;
+
 }
 
 footer .inner-content .sub span{
@@ -1398,5 +1405,10 @@ footer .tag{
     color: gray;
     font-size: 14px;
     font-weight: 900;
+}
+@media (max-width: 1199.98px){
+    footer .inner-content .sub{
+        margin-top: 20px;
+    }
 }
 /* End Footer */
