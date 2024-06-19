@@ -1,4 +1,12 @@
 /* Start Header */
+@media (max-width: 567.98px) {
+    body {
+        max-width: 100vw;
+        overflow-x: hidden;
+        margin: 0 auto;
+    }
+}
+
 header {
     padding: 16px 0;
 }
@@ -14,7 +22,13 @@ header .menu {
     padding: 10px 16px;
     margin: 0;
     margin-right: 16px;
+    border: 1px solid transparent;
+}
 
+header .menu:hover {
+    border: 1px solid var(--color-text-main);
+    border-radius: 8px;
+    color: var(--color-orange);
 }
 
 header .inner-content a:last-child {
@@ -31,6 +45,7 @@ header .inner-content a {
 }
 
 header .inner-content a:hover {
+    transition: 400ms;
     color: var(--color-blue-hover);
 }
 
@@ -39,7 +54,41 @@ header .inner-content .first-child {
 }
 
 header .inner-content a:first-child:hover {
+    transition: 400ms;
     color: var(--color-yellow);
+}
+
+header .dropdown-menu {
+    display: none;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    border: 2px solid var(--color-white-hover);
+    border-radius: 8px;
+    position: absolute;
+}
+
+
+header .dropdown-menu a {
+    padding: 10px 16px;
+    margin: 0;
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+}
+
+header .dropdown-menu ul li{
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;
+}
+
+header .dropdown-menu ul li:hover{
+    color: var(--color-blue);
+}
+header .dropdown-menu a:hover {
+    color: var(--color-blue-hover);
 }
 
 @media (max-width: 991.98px) {
@@ -62,7 +111,7 @@ header .inner-content a:first-child:hover {
         display: block;
     }
 
-    header .inner-content a:last-child,
+    header .inner-content .last-child,
     header .inner-content .first-child {
         display: block;
     }
@@ -70,8 +119,25 @@ header .inner-content a:first-child:hover {
     header .inner-content {
         display: flex;
         justify-content: space-between;
+        position: relative;
     }
 
+    header .dropdown-menu ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    } 
+    header .dropdown-menu ul li a{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header .dropdown-menu ul li:last-child{
+        border: none;
+    }
 }
 
 /* End Header */

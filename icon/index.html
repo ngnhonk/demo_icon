@@ -29,19 +29,38 @@
     <header>
         <div class="container-md">
             <div class="inner-content">
-                <div class="menu"><i class="fa-solid fa-bars"></i></div>
+                <div class="menu" id="menu"><i class="fa-solid fa-bars"></i></div>
                 <a href="/index.html" class="first-child"><i class="fa-solid fa-flag"></i></a>
-                <a href="/start/">Start</a>
-                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="/icon/">Icons</a>
+                <a href="/start">Start</a>
+                <a href="/search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="/icon">Icons</a>
                 <a href="#">Docs</a>
                 <a href="#">Plans</a>
-                <a href="/support/">Support</a>
+                <a href="/support">Support</a>
                 <a href="#">Podcast</a>
-                <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <a href="#" class="last-child"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <div id="dropdown-menu" class="dropdown-menu">
+                    <ul>
+                        <li><a href="/start">Start</a></li>
+                        <li><a href="/search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a href="/icon">Icons</a></li>
+                        <li><a href="/support">Support</a></li>
+                        <li><a href="#">Podcast</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
+    <script>
+        document.getElementById('menu').addEventListener('click', function () {
+            var dropdownMenu = document.getElementById('dropdown-menu');
+            if (dropdownMenu.style.display === 'block') {
+                dropdownMenu.style.display = 'none';
+            } else {
+                dropdownMenu.style.display = 'block';
+            }
+        });
+    </script>
     <!-- End Header -->
     <!-- section 1 -->
     <div class="section-one">
@@ -630,8 +649,8 @@
         </div>
     </div>
 
-     <!-- Start Footer -->
-     <footer>
+    <!-- Start Footer -->
+    <footer>
         <div class="container-md">
             <div class="inner-content">
                 <div class="row">
