@@ -1,2 +1,3 @@
-﻿# Bài tập cuối kỳ nhóm 6: clone trang web fontawesome.com
-# Đường link truy cập: http://just-font-awesome.vercel.app
+# Demo video:
+
+https://github.com/user-attachments/assets/85b86503-f69c-4d7b-aa1c-1812fc7aafbe
